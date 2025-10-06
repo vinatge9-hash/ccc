@@ -1,0 +1,1 @@
+import React from 'react';\n\nconst Footer: React.FC = () => {\n  return (\n    <footer className=\"bg-background border-t\">\n      <div className=\"container mx-auto py-6 text-sm text-muted\">\n        © {new Date().getFullYear()} Bean & Co Coffee. All rights reserved.\n      </div>\n    </footer>\n  );\n};\n\nexport default Footer;
